@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#logo img {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+#name {
+    text-align: right;
+}
+
+#name h1 {
+    margin: 0;
+}
+
+.aboutme {
+    padding: 20px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.aboutme h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutme h2 {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.aboutme #intro {
+    display: flex;
+    align-items: center;
+}
+
+.aboutme #intro p {
+    flex: 1;
+    margin-right: 20px;
+    color: gray;
+}
+
+.aboutme #intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.skills h1 {
+    margin-left: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+
+}
+.skills ul{
+    margin-left: 40px;
+}
+.project1{
+    margin: 20px 20px;
+}
+.project1 h1{
+ 
+ 
+    border-bottom: 2px solid #ccc;
+}
+.project1 img{
+margin: 30px 30px;
+    width: 60pc;
+    height: 45pc;
+    object-fit: fit;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+   
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
